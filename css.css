@@ -1,0 +1,39 @@
+/* Selector de etiqueta */
+p {
+    color: blue;
+  }
+  
+  /* Selector de clase */
+  .tamano {
+    font-size: 18px;
+    background-color: grey;
+  }
+  .color_respuesta{
+    color:gray;
+  }
+  #color_fondo {
+    background-color: #F0F0F0;
+  }
+
+  /* ejemplo sin aplicar al html */
+
+  /* Estilo a l color del parrafo de color rojo */
+p {
+    color: red;
+  }
+  
+  /* Estilo que sobrescribe al color rojo anterior */
+  p {
+    color: blue;
+  }
+  
+  
+  /* Estilo con elemento específico */
+#un_id {
+    background-color: yellow;
+  }
+  /* Estilo sin elemento específico */
+  h2 {
+    background-color: pink;
+  }
+  

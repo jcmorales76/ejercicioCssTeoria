@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Ejercicio 2</title>
+  </head>
+
+  <body>
+    <h1 class="tamano">Conceptos de CSS</h1>
+
+    <p class="color_respuesta">
+      1. Explicar cuantas maneras existen para vincular html con css Hoy se
+      aprendio de tres tipos, el que recuedo primero es el archivo .css, este
+      archivo guarda todo el codigo CSS aplicado a la pagina html, de esta menra
+      creo que es mas ordenado poder aplicar estilos. Luego recuerdo el que se
+      usa directamente en el html con la etiqueta <style></style> esta lo que
+      hace es incluir codigo de estilos css, directamente en el html. Luego el
+      utilizando el atributo style dentro de una etiqueta, son estilos
+      especificos e individuales.
+    </p>
+
+    <p>
+      2. Explicar con sus palabras el conjunto de reglas de CSS (selector ,
+      propiedad , valor)
+    </p>
+
+    <ol class="color_respuesta">
+      <li>
+        Selector, es una regla de CSS que esta direccionado a las etiquetas de
+        HTML, como p, h1, entre muchos mas, , tambien existen las clases con
+        class y los identificadores con id, cada quien tiene su prioridad de
+        aplicacion al elemento.
+      </li>
+      <li>
+        La propiedad es la caracteristica de la etiqueta seleccionada que se va
+        aplicar los estilos, como por ejemplo los colores de fuente, tamnbien el
+        tamano de la letra, margenes entre otros.
+      </li>
+      <li>
+        Valor, como bien dice es el valor especifico que le pones a la propiedad
+        de la etiqueta, como por ejemplo, especificar que color es, que tamano
+        de letra la medida, entre otras mas valores como el valor del margen o
+        padding etc.
+      </li>
+    </ol>
+
+    <p>
+      3. Explicar los 4 conceptos importantes con ejemplos ( selectores,
+      herencia , cascada , especificidad
+    </p>
+    <p class="color_respuesta">
+      Los selectores en CSS como se indica en el concepto anterior se utilizan
+      para seleccionar y estilizar elementos HTML. como seleccionar una etiqueta
+      (p para párrafos), o más complejos, como seleccionar elementos con una
+      clase (.tamano) o un identificador id (#id_color).
+    </p>
+    <p>Ejemplos como :</p>
+    <img src="./img/selectores.png" alt="" />
+    <p>
+      La Herencia es la capacidad de recibir estilos de los elementos de sus
+      padres, indicando que no todos los estilos se heredan
+    </p>
+    <p>
+      En este ejemplo se especifico .color_respuesta y el ul y el li obtuvieron
+      el estilo del padre
+    </p>
+    <img src="./img/herencia.png" alt="" />
+    <p>
+      Cascada es el proceso mediante se aplican estilo y son definios desde de
+      arriba hacia abajo
+    </p>
+    <img src="./img/cascada.png" alt="" />
+
+    <p>
+      La especificidad es un concepto que determina qué conjunto de
+      reglas se aplicará a un elemento específico cuando hay conflictos entre
+      estilos y este tiene mayor peso.
+    </p>
+
+    <p>Ejemplos</p>
+    <img src="./img/especifico.png" alt="" />
+  </body>
+</html>
